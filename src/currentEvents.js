@@ -1,25 +1,25 @@
 export const currentEvents = [
   {
     id: 1,
-    name: "Jazz & Blues",
+    name: "Metal Fest III",
     description: "This is a test, for real"
   },
 
   {
     id: 2,
-    name: "Opeth & Soen",
+    name: "Sight of Emptiness",
     description: "This is a test, for real"
   },
 
   {
     id: 3,
-    name: "Doors Tribute",
+    name: "Lamb of God Tribute",
     description: "This is a test, for real"
   },
 
   {
     id: 4,
-    name: "Steven Wilson",
+    name: "Nostoc & Osculate",
     description: "This is a test, for real"
   },
 ];
