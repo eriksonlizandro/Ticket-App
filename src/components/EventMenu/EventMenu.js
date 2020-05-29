@@ -4,7 +4,7 @@ import Event from "../Event/Event";
 const EventMenu = ({currentEvents}) => {
   return (
     <div>
-      {currentEvents.map((user, i) => {
+      {currentEvents.map((event, i) => {
         return (
           <Event
             key={i}

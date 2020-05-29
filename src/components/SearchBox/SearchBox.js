@@ -1,14 +1,13 @@
 import React from 'react';
 
-const searchBox = () => {
+const searchBox = ({searchChange}) => {
     return (
         <div className='pa2'>
             <input
-                className='pa3 ba b--green bg-lightest-blue w-30 br2'
+                className='pa3 ba b--green bg-lightest-blue w-30'
                 type='search'
                 placeholder='search events'
-                //onChange={searchChange} 
-                />
+                onChange={searchChange} />
          
         </div>
     );
